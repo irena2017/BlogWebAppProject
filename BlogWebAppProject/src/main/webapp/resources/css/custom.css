@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+h2.field-title {
+    font-size: 36px !important;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: block; 
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 60px; 
+    height: 50px; 
+}
+
+span.far, p.text-sm1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hide-button {
+    width: 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0; 
+    text-decoration: none;
+    display: inline;
+}
+
+.logout-button:hover {
+    background-color: #eee;
+}
+
+.logout-button span {
+    margin-right: 5px;
+}
+
